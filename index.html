@@ -7,26 +7,54 @@
 	<form>
 		
 	  First Name:<br>
-	  <input type="text" name="firstname"><br>
+	  	<input type="text" name="firstname"><br>
 	  Middle initial:<br>
-	  <input type="text" name="middlename"><br>
+	  	<input type="text" name="middlename"><br>
 	  Last Name:<br>
-	  <input type="text" name="lastname"><br>
+	  	<input type="text" name="lastname"><br>
 		Applicant Address:<br>
-	  <input type="text" name="address"><br>
+	  	<input type="text" name="address"><br>
 		Applicant Occupation:<br>
-	  <input type="text" name="address"><br>
+	 	 <input type="text" name="Occupation"><br>
 	  Applicant Employer:<br>
-	  <input type="text" name="address"><br>
+	  	<input type="text" name="Employer"><br>
 	  Applicant EmployerAddress:<br>
-	  <input type="text" name="address"><br>
+	  	<input type="text" name="EmployerAddress"><br>
+		
+		Type of Loan:<br>
+		<select name="Loan">
+		  <option value="Commercial">Commercial</option>
+		  <option value="Real estate">Real estate</option>
+		  <option value="Personal">Personal</option>
+		  <option value="Mortgage">Mortgage</option>
+		</select><br>
 
-		<select name="cars">
-		  <option value="volvo">Volvo</option>
-		  <option value="saab">Saab</option>
-		  <option value="fiat">Fiat</option>
-		  <option value="audi">Audi</option>
-		</select>
+		Amount of loan:<br>
+			<input type="number" name="address"><br>		
+		Loan Length: <br>
+			<input type="radio" name="years" value="5 years">5 years<br>
+  		<input type="radio" name="years" value="15 years"> 15 years<br>
+  		<input type="radio" name="years" value="30 years"> 30 years<br>
+
+		Special Conditions:<br>
+  		<input type="checkbox" name="downPayment" value="I have down payment"> I have a down payment<br>
+ 			<input type="checkbox" name="Out-of-state" value="Out-of-state"> Out-of-state resident<br>
+ 			<input type="checkbox" name="Married" value="Married"> Married<br>
+ 			<input type="checkbox" name="Loan co-signed" value="Loan co-signed"> Loan will be co-signed<br>
+
+ 		Additional Comments:<br>
+ 			<textarea Name="Comments" rows=7 cols=40></textarea><br>
+
+ 		Email address:<br>
+ 			<input type="email" name="email"><br>
+
+		Applicant telephone number: <br>
+			<input type="telephone" name="phone number"><br>
+
+		Applicant LinkedIn URL: <br>
+			<input type="url" name="linke"><br>
+
+ 		
 
 	</form>
 </body>
